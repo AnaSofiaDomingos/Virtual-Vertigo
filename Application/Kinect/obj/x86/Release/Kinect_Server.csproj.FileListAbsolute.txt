@@ -1,0 +1,9 @@
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\Kinect_Server\obj\x86\Release\Kinect_Server.csprojResolveAssemblyReference.cache
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\Kinect_Server\bin\Release\Kinect.Server.exe
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\Kinect_Server\bin\Release\Kinect.Server.pdb
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\Kinect_Server\bin\Release\Newtonsoft.Json.dll
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\Kinect_Server\bin\Release\SocketIO.Client.dll
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\Kinect_Server\bin\Release\WebSocket4Net.dll
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\Kinect_Server\bin\Release\SocketIO.Client.pdb
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\Kinect_Server\obj\x86\Release\Kinect.Server.exe
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\Kinect_Server\obj\x86\Release\Kinect.Server.pdb

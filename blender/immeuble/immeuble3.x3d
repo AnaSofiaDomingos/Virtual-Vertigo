@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
+	<head>
+		<meta name="filename" content="immeuble3.x3d" />
+		<meta name="generator" content="Blender 2.72 (sub 0)" />
+	</head>
+	<Scene>
+		<NavigationInfo headlight="true"
+		                visibilityLimit="0.0"
+		                type='"EXAMINE", "ANY"'
+		                avatarSize="0.25, 1.75, 0.75"
+		                />
+		<Background DEF="WO_World"
+		            groundColor="0.051 0.051 0.051"
+		            skyColor="0.051 0.051 0.051"
+		            />
+		<Transform DEF="Planche_TRANSFORM"
+		           translation="0.639281 6.893388 0.922025"
+		           scale="-3.137820 -1.000000 -0.170850"
+		           rotation="-1.000000 0.000000 0.000000 1.570796"
+		           >
+			<Transform DEF="Planche_ifs_TRANSFORM"
+			           translation="0.000000 -0.000000 0.000000"
+			           scale="1.000000 1.000000 1.000000"
+			           rotation="1.000000 0.000000 0.000000 0.000000"
+			           >
+				<Group DEF="group_ME_Planche">
+					<Shape>
+						<Appearance>
+							<Material DEF="MA_Material"
+							          diffuseColor="0.073 0.022 0.008"
+							          specularColor="0.401 0.401 0.401"
+							          emissiveColor="0.000 0.000 0.000"
+							          ambientIntensity="0.333"
+							          shininess="0.098"
+							          transparency="0.0"
+							          />
+						</Appearance>
+						<IndexedFaceSet solid="true"
+						                creaseAngle="4.0000"
+						                coordIndex="1 0 4 5 -1 5 6 2 1 -1 6 7 3 2 -1 0 3 7 4 -1 0 1 2 3 -1 7 6 5 4 -1 "
+						                >
+							<Coordinate DEF="coords_ME_Planche"
+							            point="-1.000000 -1.000000 -1.000000 -1.000000 1.000000 -1.000000 1.000000 1.000000 -1.000000 1.000000 -1.000000 -1.000000 -1.000000 -1.000000 1.000000 -1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 -1.000000 1.000000 "
+							            />
+						</IndexedFaceSet>
+					</Shape>
+				</Group>
+			</Transform>
+		</Transform>
+		<Transform DEF="immeuble1_TRANSFORM"
+		           translation="-4.303935 -0.336975 0.670661"
+		           scale="1.000000 1.000000 1.000000"
+		           rotation="0.000000 0.707107 0.707107 3.141593"
+		           >
+			<Transform DEF="immeuble1_ifs_TRANSFORM"
+			           translation="0.000000 0.000000 0.000000"
+			           scale="1.000000 1.000000 1.000000"
+			           rotation="1.000000 0.000000 0.000000 0.000000"
+			           >
+				<Group DEF="group_ME_Cube_002">
+					<Shape>
+						<Appearance>
+							<Material DEF="MA_Material_004"
+							          diffuseColor="0.279 0.288 0.255"
+							          specularColor="0.401 0.401 0.401"
+							          emissiveColor="0.000 0.000 0.000"
+							          ambientIntensity="0.333"
+							          shininess="0.098"
+							          transparency="0.0"
+							          />
+						</Appearance>
+						<IndexedFaceSet solid="true"
+						                creaseAngle="4.0000"
+						                coordIndex="0 1 2 3 -1 4 7 6 5 -1 0 4 5 1 -1 1 5 6 2 -1 2 6 7 3 -1 4 0 3 7 -1 "
+						                >
+							<Coordinate DEF="coords_ME_Cube_002"
+							            point="0.552499 2.432896 0.330034 0.552499 -2.432896 0.330034 -3.046190 -2.432895 0.330034 -3.046189 2.432897 0.330034 0.552500 2.432895 7.079087 0.552498 -2.432898 7.079087 -3.046190 -2.432895 7.079087 -3.046189 2.432896 7.079087 "
+							            />
+						</IndexedFaceSet>
+					</Shape>
+				</Group>
+			</Transform>
+		</Transform>
+		<Transform DEF="immeuble2_TRANSFORM"
+		           translation="2.788226 -0.336975 0.670661"
+		           scale="1.000000 1.000000 1.000000"
+		           rotation="0.000000 0.707107 0.707107 3.141593"
+		           >
+			<Transform DEF="immeuble2_ifs_TRANSFORM"
+			           translation="0.000000 0.000000 0.000000"
+			           scale="1.000000 1.000000 1.000000"
+			           rotation="1.000000 0.000000 0.000000 0.000000"
+			           >
+				<Group DEF="group_ME_Cube_004">
+					<Shape>
+						<Appearance>
+							<Material DEF="MA_Material_001"
+							          diffuseColor="0.111 0.110 0.184"
+							          specularColor="0.401 0.401 0.401"
+							          emissiveColor="0.000 0.000 0.000"
+							          ambientIntensity="0.333"
+							          shininess="0.098"
+							          transparency="0.0"
+							          />
+						</Appearance>
+						<IndexedFaceSet solid="true"
+						                creaseAngle="4.0000"
+						                coordIndex="0 1 2 3 -1 4 7 6 5 -1 0 4 5 1 -1 1 5 6 2 -1 2 6 7 3 -1 4 0 3 7 -1 "
+						                >
+							<Coordinate DEF="coords_ME_Cube_004"
+							            point="0.552499 2.432896 0.330034 0.552499 -2.432896 0.330034 -3.046190 -2.432895 0.330034 -3.046189 2.432897 0.330034 0.552500 2.432895 7.079087 0.552498 -2.432898 7.079087 -3.046190 -2.432895 7.079087 -3.046189 2.432896 7.079087 "
+							            />
+						</IndexedFaceSet>
+					</Shape>
+				</Group>
+			</Transform>
+		</Transform>
+	</Scene>
+</X3D>

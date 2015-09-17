@@ -1,0 +1,17 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+A level-1 auxiliary file: Avant-propos.aux
+The style file: unsrt.bst
+A level-1 auxiliary file: 1_Introduction.aux
+A level-1 auxiliary file: 2_Virtual-Vertigo.aux
+A level-1 auxiliary file: 3_Technologies.aux
+A level-1 auxiliary file: 4_Implementation.aux
+A level-1 auxiliary file: 5_Bugs.aux
+A level-1 auxiliary file: 7_Conclusion.aux
+A level-1 auxiliary file: 8_Annexes.aux
+Database file #1: References.bib
+You're missing a field name---line 136 of file References.bib
+ : 
+ : %note={https://play.google.com/store/apps/details?id=com.google.samples.apps.cardboarddemo}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+(There was 1 error message)

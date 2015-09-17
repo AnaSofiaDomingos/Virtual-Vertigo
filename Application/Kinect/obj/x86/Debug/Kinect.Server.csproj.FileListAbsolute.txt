@@ -1,0 +1,17 @@
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Kinect\Kinect-HTML5-master\Kinect.Server\bin\Debug\Kinect.Server.exe
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Kinect\Kinect-HTML5-master\Kinect.Server\bin\Debug\Kinect.Server.pdb
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Kinect\Kinect-HTML5-master\Kinect.Server\bin\Debug\Fleck.dll
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Kinect\Kinect-HTML5-master\Kinect.Server\obj\x86\Debug\Kinect.Server.csprojResolveAssemblyReference.cache
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Kinect\Kinect-HTML5-master\Kinect.Server\obj\x86\Debug\Kinect.Server.exe
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Kinect\Kinect-HTML5-master\Kinect.Server\obj\x86\Debug\Kinect.Server.pdb
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\NodeJS\socket.io-csharp-client-master\Kinect.Server\bin\Debug\Kinect.Server.exe
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\NodeJS\socket.io-csharp-client-master\Kinect.Server\bin\Debug\Kinect.Server.pdb
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\NodeJS\socket.io-csharp-client-master\Kinect.Server\bin\Debug\Newtonsoft.Json.dll
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\NodeJS\socket.io-csharp-client-master\Kinect.Server\bin\Debug\SocketIO.Client.dll
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\NodeJS\socket.io-csharp-client-master\Kinect.Server\bin\Debug\WebSocket4Net.dll
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\NodeJS\socket.io-csharp-client-master\Kinect.Server\bin\Debug\SocketIO.Client.pdb
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\NodeJS\socket.io-csharp-client-master\Kinect.Server\obj\x86\Debug\Kinect.Server.csprojResolveAssemblyReference.cache
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\NodeJS\socket.io-csharp-client-master\Kinect.Server\obj\x86\Debug\Kinect.Server.exe
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\NodeJS\socket.io-csharp-client-master\Kinect.Server\obj\x86\Debug\Kinect.Server.pdb
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\Kinect.Server\obj\x86\Debug\Kinect.Server.exe
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\Kinect.Server\obj\x86\Debug\Kinect.Server.pdb

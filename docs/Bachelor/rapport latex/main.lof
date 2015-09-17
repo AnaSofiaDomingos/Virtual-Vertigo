@@ -1,0 +1,58 @@
+\select@language {french}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Illustration de l'installation mise en place\relax }}{11}{figure.caption.8}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Vue 3D vue par la personne portant les lunettes\relax }}{13}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Sch\IeC {\'e}ma du projet et de ses composants\relax }}{14}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Mod\IeC {\`e}le 3D de l'installation de \textit {Virtual-Vertigo}\relax }}{15}{figure.caption.14}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Illustrations de l'installation r\IeC {\'e}elle mise en place\relax }}{16}{figure.caption.15}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Architecture du projet \textit {Virtual-Vertigo}\relax }}{18}{figure.caption.21}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagramme de s\IeC {\'e}quence du projet \textit {Virtual-Vertigo}\relax }}{20}{figure.caption.22}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Diagramme d'activit\IeC {\'e} du projet \textit {Virtual-Vertigo}\relax }}{21}{figure.caption.23}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustrations des \textit {Google CardBoard version 1}\relax }}{22}{figure.caption.25}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Illustrations des Google CardBoard version 2\relax }}{23}{figure.caption.28}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces St\IeC {\'e}r\IeC {\'e}oscopie sur smartphone pour \textit {Google CardBoard}\relax }}{24}{figure.caption.32}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Illustration de l'\textsf {application ClassroomVR}\relax }}{25}{figure.caption.35}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Structure du \textit {Kinect version 1}\relax }}{26}{figure.caption.36}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Kinect v1 vs Kinect v2\relax }}{27}{figure.caption.38}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Angles de vue du \textit {Kinect} horizontal et vertical\relax }}{28}{figure.caption.40}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Illustration des axes par rapport au \textit {Kinect}\relax }}{29}{figure.caption.44}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Articulations du squelette capt\IeC {\'e}s par le Kinect\relax }}{29}{figure.caption.45}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Illustration de la rotation hi\IeC {\'e}rachique\relax }}{31}{figure.caption.46}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Illustration de l'orientation absolue\relax }}{31}{figure.caption.46}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Illustration des matrices de rotations en x, y et z\relax }}{31}{figure.caption.47}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagramme de s\IeC {\'e}quences illustrant la communication avec le serveur\relax }}{38}{figure.caption.61}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustration des \IeC {\'e}changes de donn\IeC {\'e}es entre serveur, clients HTML et Kinect\relax }}{43}{figure.caption.66}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Illustration de l'objet json des positions\relax }}{45}{figure.caption.67}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Illustration de l'objet json de l'orientation des mains\relax }}{45}{figure.caption.68}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Illustration de l'objet json cr\IeC {\'e}\IeC {\'e} avec les positions re\IeC {\c c}ues et leurs articulations\relax }}{46}{figure.caption.69}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Mod\IeC {\`e}le de vue 3D mod\IeC {\'e}lis\IeC {\'e} sur Blender\relax }}{48}{figure.caption.70}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces vue entre immeubles et du dessus\relax }}{49}{figure.caption.71}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces vue depuis la rue et depuis la planche\relax }}{49}{figure.caption.72}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces "Evolution" du personnage 3D\relax }}{49}{figure.caption.73}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Illustrations vue virtuelle avec textures\relax }}{50}{figure.caption.74}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Illustrations des positions possibles de la cam\IeC {\'e}ra\relax }}{51}{figure.caption.76}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Illustration des axes de l'acc\IeC {\'e}l\IeC {\'e}rom\IeC {\`e}tre\relax }}{52}{figure.caption.78}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Triangle rectangle utilis\IeC {\'e} pour le calcul de l'angle $a$\relax }}{54}{figure.caption.81}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Illustration de l'objet json des articulations reli\IeC {\'e}es\relax }}{55}{figure.caption.82}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Illustration du cercle trigonom\IeC {\'e}trique des valeurs de atan2\relax }}{56}{figure.caption.87}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Illustration du triangle rectangle\relax }}{60}{figure.caption.94}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Rectangle cr\IeC {\'e}\IeC {\'e} sur le sol afin d'effectuer les mesures\relax }}{61}{figure.caption.96}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces \IeC {\'E}volution de la distance entre les \IeC {\'e}paules et la colonne\relax }}{62}{figure.caption.97}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Illustration des sc\IeC {\`e}nes virtuelles 3D cr\IeC {\'e}\IeC {\'e}es\relax }}{64}{figure.caption.100}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Illustration des articulations du squelette captur\IeC {\'e}es par le \textit {Kinect v1}\relax }}{65}{figure.caption.101}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Illustration du personnage r\IeC {\'e}aliste cr\IeC {\'e}\IeC {\'e}\relax }}{65}{figure.caption.102}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Illustration de la vue st\IeC {\'e}r\IeC {\'e}oscopique sur le \textsf {smartphone}\relax }}{65}{figure.caption.103}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Illustration du d\IeC {\'e}placement du squelette 3D dans la r\IeC {\'e}alit\IeC {\'e} virtuelle\relax }}{66}{figure.caption.104}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Simulation de Virtual-Vertigo\relax }}{66}{figure.caption.105}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

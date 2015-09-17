@@ -1,0 +1,23 @@
+﻿ Sujets manquants :
+ ===================
+ 
+ -Git & Github
+ -WebHook (Julien Cornu est disponible dans le bureau le mercredi et le jeudi après-midi)
+ -Kinect
+ -NodeJs & WebSocket (MeteorJS)
+ 
+ Proposition d'amélioration :
+ =============================
+ 
+ -Remplacer "C'est quoi ?" par "Introduction".
+ -Dans la description du projet décris ce qu'est une Google Cardboard et l'utilité de chaque composant/technologie du schéma présenté.
+ -Le but du projet de semestre est plus d'étdier toutes les technologie que l'on aura besoin pour voir si tout convient et que tout s'intègre correctement dans le projet.
+ -Dans la partie X3DOM énoncer l'utilisation de Blender
+ -Commencer l'introduction du choix des capteurs du téléphone par le moyen utilisé (javaScript) pour le dialogue entre le navigateur du téléphonoe et les composants du téléphone.
+ -La rédaction d'un cahier de board est une excellente idée. N'hésite pas à en dire un mot dans la conclusion et de relire l'historique pour voir si tu n'as pas oublier de parler d'un sujet dans ton rapport.
+ 
+ A chaque fois que tu décris un composant ou une technologie essaye de suivre le schéma suivant :
+ 1) Qu'est-ce que c'est, à quoi ca sert.
+ 2) Pourquoi on a-t-on besoin dans ce projet.
+ 3) Explication de l'étude, des recherches des testes effectué.
+ 4) Pourquoi est-on satisfait ou pas du composant ou de la technologie.

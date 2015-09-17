@@ -1,0 +1,172 @@
+\begin{thebibliography}{10}
+
+\bibitem{webhook}
+Wikipédia.
+\newblock Page wikipédia sur webhook.
+\newblock https://en.wikipedia.org/wiki/Webhook.
+
+\bibitem{SeriousGame}
+Wikipédia.
+\newblock Page wikipédia sur les serious games.
+\newblock $https://en.wikipedia.org/wiki/Serious_game$.
+
+\bibitem{LudoMedic}
+LudoMedic.
+\newblock Plateforme médicale vidéoludique (serious game).
+\newblock http://www.ludomedic.com/.
+
+\bibitem{cccp}
+CCCP.
+\newblock Cccp, développeur de serious games et jeux vidéo.
+\newblock http://cccp.fr/.
+
+\bibitem{acrophobie}
+Wikipédia.
+\newblock Page wikipédia sur l'acrophobie (la peur du vide).
+\newblock https://fr.wikipedia.org/wiki/Acrophobie.
+
+\bibitem{cnrs}
+Léa Galanopoulo.
+\newblock Article "guérir le vertige grâce à la réalité virtuelle".
+\newblock {\em CNRS Le journal}, Août 2014.
+\newblock
+  https://lejournal.cnrs.fr/articles/guerir-le-vertige-grace-a-la-realite-virtuelle.
+
+\bibitem{etude}
+Daniel MESTRE.
+\newblock Projet "contrôle du stress par cyberthérapie", Mars 2015.
+\newblock $http://www.cnrs.fr/mi/IMG/pdf/itmm_pres_17_mars_mestre.pdf$.
+
+\bibitem{CardBoard}
+Google.
+\newblock Page du site des google cardboard pour le montage.
+\newblock https://www.google.com/get/cardboard/get-cardboard/.
+
+\bibitem{stereoscopie}
+Wikiédia.
+\newblock Description de la stéréoscopie.
+\newblock https://fr.wikipedia.org/wiki/St%C3%A9r%C3%A9oscopie.
+
+\bibitem{androidCardboard}
+Google.
+\newblock Application cardboard.
+
+\bibitem{spotlight}
+Google.
+\newblock Application spotlight stories.
+\newblock
+  https://play.google.com/store/apps/details?id=com.google.android.spotlightstories.
+
+\bibitem{PrerequisKinectv1}
+Microsoft.
+\newblock Page web contenant les pré-requis pour le kinect v1.
+\newblock https://msdn.microsoft.com/en-us/library/hh855359.aspx.
+
+\bibitem{jointOrientation}
+Microsoft.
+\newblock Description de l'orientation des points du squelette.
+\newblock https://msdn.microsoft.com/en-us/library/hh973073.aspx.
+
+\bibitem{quaternion}
+Wikipédia.
+\newblock Description des quaternions pour la rotation dans l'espace.
+\newblock
+  $https://fr.wikipedia.org/wiki/Quaternions_et_rotation_dans_l'espace$.
+
+\bibitem{matrice}
+Wikipédia.
+\newblock Description des matrices de rotations.
+\newblock $https://fr.wikipedia.org/wiki/Matrice_de_rotation$.
+
+\bibitem{SDKKinectv1}
+Microsoft.
+\newblock Page web contenant des informations sur chaque version du sdk.
+\newblock https://msdn.microsoft.com/en-us/library/jj663803.aspx.
+
+\bibitem{SocketIOCSharp}
+joeandaverde.
+\newblock Dépôt git de joeandaverde sur lequel se trouve
+  socket.io-csharp-client, 2012.
+\newblock https://github.com/joeandaverde/socket.io-csharp-client.
+
+\bibitem{WebSocket4Net}
+kerryjiang.
+\newblock Dépôt git de kerryjiang sur lequel se trouve websocket4net.
+\newblock https://github.com/kerryjiang/WebSocket4Net.
+
+\bibitem{X3DOM}
+Communauté X3DOM.
+\newblock Page web de x3dom.
+\newblock http://www.x3dom.org/.
+
+\bibitem{DOM}
+Wikipédia.
+\newblock Page wikipédia sur dom (document objet model).
+\newblock $https://fr.wikipedia.org/wiki/Document_Object_Model$.
+
+\bibitem{X3D}
+Wikipédia.
+\newblock Page wikipédia sur x3d (extensible 3d).
+\newblock $https://fr.wikipedia.org/wiki/Extensible_3D$.
+
+\bibitem{websocket}
+Wikipédia.
+\newblock Page wikipédia sur les websockets.
+\newblock https://fr.wikipedia.org/wiki/WebSocket.
+
+\bibitem{MeteorJS}
+Communauté MeteorJS.
+\newblock Page web de meteorjs.
+\newblock https://www.meteor.com/.
+
+\bibitem{NodeJS}
+Communauté NodeJS.
+\newblock Page web de nodejs.
+\newblock https://nodejs.org/.
+
+\bibitem{SocketIO}
+Socket.io.
+\newblock Site internet de socket.io, 2012.
+\newblock http://socket.io/.
+
+\bibitem{json}
+json.
+\newblock Site internet de json.
+\newblock http://json.org.
+
+\bibitem{NodesX3DOM}
+X3DOM.
+\newblock Liste de tout les nodes possibles sur x3dom.
+\newblock http://doc.x3dom.org/author/nodes.html.
+
+\bibitem{atan2}
+Wikipédia.
+\newblock Page wikipédia expliquant atan2.
+\newblock https://fr.wikipedia.org/wiki/Atan2.
+
+\bibitem{NodeKinect}
+nguyer.
+\newblock Dépôt git de nguyer sur lequel se trouve node kinect.
+\newblock https://github.com/nguyer/node-kinect.
+
+\bibitem{libusb}
+GNU~Operating System.
+\newblock Librairie c permettant de communiquer avec les périphériques usb.
+\newblock http://www.libusb.org/.
+
+\bibitem{libfreenect}
+OpenKinect.
+\newblock Dépôt git de openkinect sur lequel se trouve libfreenect.
+\newblock https://github.com/OpenKinect/libfreenect.
+
+\bibitem{OpenKinect}
+OpenKinect.
+\newblock Site de openkinect.
+\newblock $http://openkinect.org/wiki$.
+
+\bibitem{KinectHTML5}
+Vangos Pterneas.
+\newblock Dépôt git de vangos pterneas contenant kinecthtml5.
+\newblock https://github.com/Vangos/KinectHtml5.
+
+\end{thebibliography}

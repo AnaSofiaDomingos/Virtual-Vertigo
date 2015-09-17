@@ -1,0 +1,42 @@
+<!-- ------------------------------------------------------------------------------------
+ file : index.html
+ author : António Domingos Ana Sofia
+ date : hepia Spring 2015
+ description : Client HTML who redirect in function of the mode in parameter
+ ------------------------------------------------------------------------------------- -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vertigo index</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      body {
+        margin: 0px;
+        overflow: hidden;
+      }
+    </style>
+    <script>
+    // switch between smartphone, pc and test view
+    window.onload = function () {
+      var mode = location.search.split('mode=')[1];
+      if (mode == 1)
+        window.location.href = "/smartphone.html";
+      else if (mode == 2)
+        window.location.href = "/pc.html";
+      else if (mode == 3)
+        window.location.href = "/smartphone_character.html";
+      else if (mode == 4)
+        window.location.href = "/pc_smartphone_character.html";
+      else if (mode == undefined){
+        window.location.href = "/smartphone.html";
+        //alert("Veuillez choisir un mode : [1] smartphone, [2] pc, [3] smartphone personnage non animé et [4] pc personnage non animé");
+        //window.location.href = "/index.html?mode=";
+      }
+    } 
+    </script>
+  </head>
+  <body>
+    <h1> Choix du mode </h1>
+  </body>
+</html>

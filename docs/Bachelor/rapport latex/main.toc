@@ -1,0 +1,76 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Introduction}{10}{chapter.1}
+\contentsline {section}{\numberline {1.1}Contexte}{10}{section.1.1}
+\contentsline {section}{\numberline {1.2}Projet Virutal-Vertigo}{11}{section.1.2}
+\contentsline {section}{\numberline {1.3}Organisation du projet}{12}{section.1.3}
+\contentsline {chapter}{\numberline {2}Virtual-Vertigo}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Dispositif}{13}{section.2.1}
+\contentsline {subsubsection}{Prix des composants}{14}{section*.12}
+\contentsline {subsubsection}{Planche}{16}{section*.17}
+\contentsline {subsubsection}{Effet sonore environnant}{16}{section*.18}
+\contentsline {subsubsection}{Sensation de vent}{17}{section*.19}
+\contentsline {subsubsection}{Pulsations cardiaques}{17}{section*.20}
+\contentsline {section}{\numberline {2.2}Architecture}{18}{section.2.2}
+\contentsline {chapter}{\numberline {3}Composants, technologies et outils}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}Google CardBoard}{22}{section.3.1}
+\contentsline {subsubsection}{Mat\IeC {\'e}riel pour le montage}{22}{section*.26}
+\contentsline {subsubsection}{Nouveaut\IeC {\'e}s}{23}{section*.29}
+\contentsline {subsubsection}{Mat\IeC {\'e}riel pour le montage}{23}{section*.30}
+\contentsline {section}{\numberline {3.2}Kinect version 1}{26}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Composants et caract\IeC {\'e}ristiques}{26}{subsection.3.2.1}
+\contentsline {subsubsection}{Comparaison v1 et v2}{27}{section*.37}
+\contentsline {subsection}{\numberline {3.2.2}Capture des donn\IeC {\'e}es}{27}{subsection.3.2.2}
+\contentsline {subsubsection}{Angle de vue}{28}{section*.39}
+\contentsline {subsubsection}{Color Stream}{28}{section*.41}
+\contentsline {subsubsection}{Depth Stream}{28}{section*.42}
+\contentsline {subsubsection}{Skeletal Stream}{29}{section*.43}
+\contentsline {subsection}{\numberline {3.2.3}Articulations du squelette et leurs orientations}{29}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Outils utilis\IeC {\'e}s dans le projet}{32}{subsection.3.2.4}
+\contentsline {subsubsection}{Framework .NET}{32}{section*.48}
+\contentsline {subsubsection}{Visual Studio 2013}{32}{section*.49}
+\contentsline {subsubsection}{SDK 1.8 du Kinect v1}{32}{section*.50}
+\contentsline {paragraph}{Exemple d'utilisation \\ }{33}{section*.51}
+\contentsline {subsubsection}{Socket IO C\# Client}{33}{section*.52}
+\contentsline {paragraph}{Exemple d'utilisation \\ }{34}{section*.53}
+\contentsline {section}{\numberline {3.3}Technologies 3D}{35}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}X3DOM}{35}{subsection.3.3.1}
+\contentsline {paragraph}{Exemple d'utilisation \\ }{35}{section*.55}
+\contentsline {subsection}{\numberline {3.3.2}Logiciels 3D - Blender, MakeHuman et Cinema4D}{37}{subsection.3.3.2}
+\contentsline {subsubsection}{Blender}{37}{section*.57}
+\contentsline {subsubsection}{Format x3d}{37}{section*.58}
+\contentsline {subsubsection}{MakeHuman}{37}{section*.59}
+\contentsline {subsubsection}{Cinema4D}{37}{section*.60}
+\contentsline {section}{\numberline {3.4}Serveur Web Virtual-Vertigo en NodeJS}{38}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}NodeJS}{39}{subsection.3.4.1}
+\contentsline {paragraph}{Exemple d'utilisation \\}{39}{section*.63}
+\contentsline {subsection}{\numberline {3.4.2}Module ExpressJS}{40}{subsection.3.4.2}
+\contentsline {paragraph}{Exemple d'utilisation \\}{40}{section*.64}
+\contentsline {subsection}{\numberline {3.4.3}Module Socket.io}{40}{subsection.3.4.3}
+\contentsline {paragraph}{Exemple d'utilisation \\}{41}{section*.65}
+\contentsline {chapter}{\numberline {4}Impl\IeC {\'e}mentation}{42}{chapter.4}
+\contentsline {section}{\numberline {4.1}Serveur Virtual-Vertigo}{42}{section.4.1}
+\contentsline {section}{\numberline {4.2}Donn\IeC {\'e}es provenant du Kinect}{44}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Capture des donn\IeC {\'e}es}{44}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Format des donn\IeC {\'e}es}{45}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Traitement des donn\IeC {\'e}es}{46}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Mod\IeC {\'e}lisation de r\IeC {\'e}alit\IeC {\'e} virtuelle}{47}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Cr\IeC {\'e}ation de la sc\IeC {\`e}ne virtuelle}{47}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Cr\IeC {\'e}ation des immeubles}{48}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Cr\IeC {\'e}ation du personnage}{49}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Textures}{50}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Animations sur la r\IeC {\'e}alit\IeC {\'e} virtuelle}{51}{section.4.4}
+\contentsline {subsubsection}{D\IeC {\'e}finition et illustrations}{56}{section*.84}
+\contentsline {chapter}{\numberline {5}Probl\IeC {\`e}mes rencontr\IeC {\'e}s}{58}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{64}{chapter.6}
+\contentsline {section}{\numberline {6.1}Bilan}{64}{section.6.1}
+\contentsline {section}{\numberline {6.2}Am\IeC {\'e}liorations}{67}{section.6.2}
+\contentsline {section}{\numberline {6.3}Perspectives}{67}{section.6.3}
+\contentsline {chapter}{Annexes}{68}{section.6.3}
+\contentsline {chapter}{\numberline {A}Glossaire}{68}{appendix.A}
+\contentsline {chapter}{\numberline {B}Cahier de bord}{70}{appendix.B}
+\contentsline {chapter}{\numberline {C}Planning}{75}{appendix.C}
+\contentsline {chapter}{\numberline {D}Code source}{77}{appendix.D}
+\contentsline {chapter}{\numberline {E}Illustrations diff\IeC {\'e}rence entre X3DOM et X3D}{85}{appendix.E}
+\contentsline {chapter}{\numberline {F}Fichiers X3DOM}{88}{appendix.F}
+\contentsline {chapter}{\numberline {G}Tutoriel d'installation des outils et utilisation du projet Virtual-Vertigo}{92}{appendix.G}
+\contentsline {chapter}{Bibliographie}{98}{appendix*.120}

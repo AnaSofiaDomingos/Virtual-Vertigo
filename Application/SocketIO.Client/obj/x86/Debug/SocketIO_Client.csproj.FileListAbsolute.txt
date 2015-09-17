@@ -1,0 +1,9 @@
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\SocketIO.Client\bin\Debug\SocketIO.Client.dll.config
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\SocketIO.Client\bin\Debug\SocketIO.Client.dll
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\SocketIO.Client\bin\Debug\SocketIO.Client.pdb
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\SocketIO.Client\bin\Debug\Newtonsoft.Json.dll
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\SocketIO.Client\bin\Debug\WebSocket4Net.dll
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\SocketIO.Client\bin\Debug\Newtonsoft.Json.xml
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\SocketIO.Client\obj\x86\Debug\SocketIO_Client.csprojResolveAssemblyReference.cache
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\SocketIO.Client\obj\x86\Debug\SocketIO.Client.dll
+D:\HEPIA\3eme annee\Projet Semestre\vertigo\Application\SocketIO.Client\obj\x86\Debug\SocketIO.Client.pdb

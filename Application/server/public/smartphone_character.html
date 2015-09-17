@@ -1,0 +1,130 @@
+<!-- ------------------------------------------------------------------------------------
+ file : smartphone.html
+ author : António Domingos Ana Sofia
+ date : hepia Spring 2015
+ description : Client HTML with the sterescopic scene for the smartphone with the rigid character
+ ------------------------------------------------------------------------------------- -->
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vertigo smartphone</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel='stylesheet' type='text/css' href='x3dom/x3dom.css'></link>
+    <script src='x3dom/x3dom.js'> </script>
+    <script src="./script.js"></script>
+    <style>
+      body {
+        margin: 0px;
+        overflow: hidden;
+      }
+      x3d{
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div onclick="fullscreen();"><h1>Fullscreen</h1></div>
+    <p>Status: <label id="status">None</label></p>
+
+    <x3d id="x3d">
+      <scene id="scene">  
+        <!-- define the camera and the type of naviagtion-->
+        <NavigationInfo headlight="false" type='"EXAMINE"'> </NavigationInfo>
+          <viewpoint id='vpp' DEF='viewpoint' description='ViewPoint 1' centerOfRotation='2.47102 21.30905 11.07228' fieldOfView="3"
+             orientation='0 0 0 0' position='2.47102 21.30905 11.07228' zNear="0.001"></viewpoint>
+        <viewpoint DEF='AOPT_CAM' position="0 22 12"  centerOfRotation="5 10 2.5"></viewpoint>
+  
+        <!-- creation of the scene  -->
+        <group id='unrendered_scene' render='false'>
+          <group DEF='scene'>
+            <!-- Immeuble -->
+          <transform DEF='camera' id='camera' translation='0 0 0' rotation='0 1 0 1.5'>
+            <inline nameSpaceName="immeuble" mapDEFToID="true" url="./blender/immeuble5.x3d"> 
+            </inline>
+
+            <!-- Character -->
+            <transform id="character" translation="-12.5 12.5 5" rotation="0 1 0 -1.5" >
+              <inline url="./blender/homme2.x3d"></inline>
+            </transform>
+          </transform>  
+          </group>
+        </group>
+          
+        <!-- creation of the left view -->
+        <group DEF='left' render='true' class='vue'>
+          <shape>
+            <appearance>
+              <renderedTexture id="left" stereoMode='LEFT_EYE' update='ALWAYS' interpupillaryDistance='0.3' 
+                               dimensions='800 800 4' repeatS='false' repeatT='false'>
+                <viewpoint USE='viewpoint' containerField='viewpoint'></viewpoint>
+                <group USE='scene' containerField="scene"></group>
+              </renderedTexture>
+              <composedShader>
+                <shaderPart type='VERTEX'>
+                  attribute vec3 position;
+                  attribute vec2 texcoord;
+                  uniform mat4 modelViewProjectionMatrix;
+                  varying vec2 fragTexCoord;
+                  void main()
+                  {
+                    vec2 pos = sign(position.xy);
+                    fragTexCoord = texcoord;
+                    gl_Position = vec4((pos.x/2.0)-0.5, pos.y, 0.0, 1.0);
+                  }
+                </shaderPart>
+                <shaderPart DEF="frag" type='FRAGMENT'>
+                  #ifdef GL_ES
+                  precision highp float;
+                  #endif
+                  uniform sampler2D tex;
+                  uniform float leftEye;
+                  varying vec2 fragTexCoord;
+                  void main()
+                  {
+                    gl_FragColor = texture2D(tex, fragTexCoord);
+                  }
+                </shaderPart>
+              </composedShader>
+            </appearance>
+            <plane solid="false"></plane>
+          </shape>
+        </group>
+        
+        <!-- creation of the right view  -->
+        <group DEF='right' render='true'  class='vue'>
+          <shape>
+            <appearance>
+              <renderedTexture id="right" stereoMode='RIGHT_EYE' update='ALWAYS' interpupillaryDistance='0.3' 
+                               dimensions='800 800 4' repeatS='false' repeatT='false'>
+                <viewpoint USE='viewpoint' containerField='viewpoint'></viewpoint>
+                <group USE='scene' containerField="scene"></group>
+              </renderedTexture>
+              <composedShader>
+                <shaderPart type='VERTEX'>
+                  attribute vec3 position;
+                  attribute vec2 texcoord;
+                  uniform mat4 modelViewProjectionMatrix;
+                  varying vec2 fragTexCoord;
+                  void main()
+                  {
+                    vec2 pos = sign(position.xy);
+                    fragTexCoord = texcoord;
+                    gl_Position = vec4((pos.x + 1.0)/2.0, pos.y, 0.0, 1.0);
+                  }
+                </shaderPart>
+                <shaderPart USE="frag" type='FRAGMENT'>
+                </shaderPart>
+              </composedShader>
+            </appearance>
+            <plane solid="false"></plane>
+          </shape>
+        </group>
+      </scene> 
+    </x3d> 
+
+   <!-- <canvas id="canvas" width="640" height="480"></canvas>-->
+  </body>
+</html>
