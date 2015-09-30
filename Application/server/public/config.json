@@ -1,0 +1,4 @@
+{
+	"skeleton_color" : "black",	// black or white
+	"pos_camera_pc" : 1	// 1 : on the CardBoard or 2 : behind the character
+}

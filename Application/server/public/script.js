@@ -5,7 +5,7 @@
  description : Script interacting with the 3D scene 
   ------------------------------------------------------------------------------------- */
 
-var ip = "129.194.184.145"; // localhost pc
+var ip = "192.168.43.138";// "129.194.184.145"; // localhost pc
 var DIV_DISTANCE = 0.1;
 var SCALE_SIZE = 100;
 var MAX_Z = 5;
@@ -382,19 +382,12 @@ window.onload = function () {
 			else if (position.head.z < 0.70 & start)
 				start = false;
 
-		if (start){
 			// only the all armature move, the animation of the member is not handle here
 			vp.attr("position", (parseFloat(position.head.x) -0.2) + " " + (parseFloat(position.head.y) -0.2)+ " " + (parseFloat(position.head.z) -0.2));
 			vp.attr("centerOfRotation", (parseFloat(position.head.x) -0.2) + " " + (parseFloat(position.head.y) -0.2)+ " " + (parseFloat(position.head.z) -0.2));
 			$("#armature").attr("translation",  (parseFloat(position.head.z) - 4.0) + " 7.3 0");
 			$("#camera").attr("translation", (parseFloat(position.head.z) - 4.0) + " 8 " + (parseFloat(position.head.x) -0.2) );
 			checkBoundries();
-
-
- 		if ((position.footright.z <= 0.8) && (position.footleft.z <= 0.8))
-			retry();
-
-		}
 	}
 
 	/* 
@@ -477,7 +470,6 @@ window.onload = function () {
 	            lastW = w;
 	            lastH = h;
 	        }
-	         if (start){
 
 		        //handle device orientation change
 		        if(!MYAPP.deviceOrientation)
@@ -494,7 +486,7 @@ window.onload = function () {
 		        var orientation = q.toAxisAngle();
 
 		        MYAPP.viewpoint.setAttribute("orientation", orientation[0].x + " " + orientation[0].y + " " + orientation[0].z + " " + orientation[1]);
-	    	}
+	    	
 	    };
 	//}
 }
